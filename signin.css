@@ -1,0 +1,41 @@
+body{
+    background-color:floralwhite;
+    text-align: center;
+    background-image: url("Image/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Register{
+    margin-top: 30px;
+    padding:20px;
+    font-size:x-large;
+    block-size:x-large;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color:lightgoldenrodyellow;
+}
+
+.Register img{
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0px;
+    color:darkred;
+    background-color:goldenrod;
+}
+
+.brands table{
+    text-align: center;
+    padding: 45px;
+}
+
+.brands td{
+    text-align: center;
+    padding: 30px;
+}

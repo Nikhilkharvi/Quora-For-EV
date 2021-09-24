@@ -1,0 +1,23 @@
+body{
+    background-color:floralwhite;
+    text-align: center;
+    background-image: url("Image/main.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Login{
+    margin-left: 600px; 
+    margin-top: 450px;
+    font-size:28px;
+    block-size:30px;
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color:lightgoldenrodyellow;
+}
+
+.Login h3{
+    text-decoration: underline;
+}

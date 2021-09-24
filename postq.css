@@ -1,0 +1,79 @@
+body{
+    background-color:floralwhite;
+    text-align: center;
+    background-image: url("Image/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Navigation ul{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color:darkgrey;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+    line-height: 35px;
+    font-size: 23px;
+}
+
+.Navigation li{
+    float:left;
+    border-right: 1px solid black;
+    margin:0 ;
+}
+
+.Navigation a{
+    display:block;
+    padding: 0 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.Navigation a:hover{
+    background-color: red;
+}
+
+.contact-box{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 100%;
+    padding: 40px 60px;
+}
+
+textarea{
+    width: 100%;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display:block;
+    color: black;
+}
+
+button{
+    background-color: blue;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+.contact-left h3{
+    color: darkblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
